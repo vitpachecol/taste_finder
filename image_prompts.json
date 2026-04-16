@@ -1,0 +1,332 @@
+{
+  "quiz_images": {
+    "modern": [
+      {
+        "id": "modern_1",
+        "filename": "modern_1.png",
+        "room": "living room",
+        "style_vibe": "ultra-modern open-plan",
+        "key_elements": [
+          "floor-to-ceiling windows",
+          "low-profile white sectional sofa",
+          "minimalist fireplace"
+        ],
+        "materials_textures": [
+          "polished concrete floors"
+        ],
+        "color_palette": [
+          "white",
+          "grey",
+          "black"
+        ],
+        "lighting": "cinematic lighting",
+        "photography_style": "architectural, editorial interior photography"
+      },
+      {
+        "id": "modern_2",
+        "filename": "modern_2.png",
+        "room": "kitchen",
+        "style_vibe": "sleek modern",
+        "key_elements": [
+          "handleless matte black cabinetry",
+          "waterfall marble island",
+          "integrated stainless steel appliances",
+          "pendant lighting"
+        ],
+        "materials_textures": [],
+        "color_palette": [],
+        "lighting": "bright and crisp lighting",
+        "photography_style": "professional real estate photography"
+      },
+      {
+        "id": "modern_3",
+        "filename": "modern_3.png",
+        "room": "master bedroom",
+        "style_vibe": "moody, luxurious",
+        "key_elements": [
+          "platform bed",
+          "floating bedside tables",
+          "integrated LED strip lighting",
+          "floor-to-ceiling curtains",
+          "accent wall"
+        ],
+        "materials_textures": [
+          "dark charcoal"
+        ],
+        "color_palette": [],
+        "lighting": "moody atmospheres",
+        "photography_style": ""
+      },
+      {
+        "id": "modern_4",
+        "filename": "modern_4.png",
+        "room": "home office",
+        "style_vibe": "minimalist modern",
+        "key_elements": [
+          "floating desk",
+          "architectural task lamp",
+          "large window with city view",
+          "abstract canvas"
+        ],
+        "materials_textures": [],
+        "color_palette": [],
+        "lighting": "clean, precise, professional lighting",
+        "photography_style": ""
+      },
+      {
+        "id": "modern_5",
+        "filename": "modern_5.png",
+        "room": "bathroom",
+        "style_vibe": "spa-like",
+        "key_elements": [
+          "freestanding sculptural bathtub",
+          "frameless glass shower"
+        ],
+        "materials_textures": [
+          "terrazzo floor tiles",
+          "stone tones"
+        ],
+        "color_palette": [
+          "white"
+        ],
+        "lighting": "warm recessed lighting",
+        "photography_style": "editorial photography"
+      }
+    ],
+    "contemporary": [
+      {
+        "id": "contemporary_1",
+        "filename": "contemporary_1.png",
+        "room": "living room",
+        "style_vibe": "warm, inviting",
+        "key_elements": [
+          "organic curved beige sofa",
+          "round travertine coffee table",
+          "shaggy cream rug",
+          "sculptural floor lamp"
+        ],
+        "materials_textures": [],
+        "color_palette": [
+          "terracotta",
+          "sand",
+          "warm white"
+        ],
+        "lighting": "",
+        "photography_style": "editorial interior photography"
+      },
+      {
+        "id": "contemporary_2",
+        "filename": "contemporary_2.png",
+        "room": "dining room",
+        "style_vibe": "warm and sophisticated",
+        "key_elements": [
+          "round walnut table",
+          "boucle upholstered chairs",
+          "dramatic oversized pendant light",
+          "gallery wall with mixed-frame art"
+        ],
+        "materials_textures": [],
+        "color_palette": [],
+        "lighting": "",
+        "photography_style": ""
+      },
+      {
+        "id": "contemporary_3",
+        "filename": "contemporary_3.png",
+        "room": "bedroom",
+        "style_vibe": "calm, organic",
+        "key_elements": [
+          "layered textiles",
+          "linen headboard",
+          "wabi-sabi ceramic bedside lamps",
+          "live-edge wooden shelf"
+        ],
+        "materials_textures": [],
+        "color_palette": [],
+        "lighting": "",
+        "photography_style": "textured interior photography"
+      },
+      {
+        "id": "contemporary_4",
+        "filename": "contemporary_4.png",
+        "room": "open-plan kitchen and dining",
+        "style_vibe": "bright, lifestyle-oriented",
+        "key_elements": [
+          "warm oak cabinetry",
+          "open shelving with ceramics and plants",
+          "kitchen island with bar stools"
+        ],
+        "materials_textures": [],
+        "color_palette": [
+          "sage green"
+        ],
+        "lighting": "warm light",
+        "photography_style": ""
+      },
+      {
+        "id": "contemporary_5",
+        "filename": "contemporary_5.png",
+        "room": "reading nook",
+        "style_vibe": "cosy",
+        "key_elements": [
+          "curved armchair in mustard fabric",
+          "built-in bookshelves in white with brass fittings",
+          "large arched window"
+        ],
+        "materials_textures": [],
+        "color_palette": [],
+        "lighting": "natural light",
+        "photography_style": "editorial photography"
+      }
+    ],
+    "classic": [
+      {
+        "id": "classic_1",
+        "filename": "classic_1.png",
+        "room": "sitting room",
+        "style_vibe": "grand traditional, aristocratic",
+        "key_elements": [
+          "ornate marble fireplace",
+          "deep Chesterfield sofa in forest green velvet",
+          "Persian rug",
+          "oil paintings on panelled walls"
+        ],
+        "materials_textures": [],
+        "color_palette": [
+          "forest green"
+        ],
+        "lighting": "",
+        "photography_style": ""
+      },
+      {
+        "id": "classic_2",
+        "filename": "classic_2.png",
+        "room": "library",
+        "style_vibe": "old-world gentleman's study aesthetic",
+        "key_elements": [
+          "floor-to-ceiling mahogany bookshelves",
+          "leather tufted armchair",
+          "globe",
+          "warm brass reading lamps"
+        ],
+        "materials_textures": [],
+        "color_palette": [
+          "dark",
+          "rich"
+        ],
+        "lighting": "",
+        "photography_style": ""
+      },
+      {
+        "id": "classic_3",
+        "filename": "classic_3.png",
+        "room": "formal dining room",
+        "style_vibe": "traditional formal",
+        "key_elements": [
+          "long mahogany table",
+          "upholstered wingback dining chairs",
+          "crystal chandelier",
+          "floral centrepiece",
+          "wainscoting walls"
+        ],
+        "materials_textures": [],
+        "color_palette": [
+          "deep navy"
+        ],
+        "lighting": "",
+        "photography_style": ""
+      },
+      {
+        "id": "classic_4",
+        "filename": "classic_4.png",
+        "room": "master bedroom",
+        "style_vibe": "romantic, timeless",
+        "key_elements": [
+          "four-poster canopy bed in ivory linen",
+          "floral wallpaper",
+          "antique bedside tables with porcelain lamps",
+          "tufted bench"
+        ],
+        "materials_textures": [],
+        "color_palette": [],
+        "lighting": "",
+        "photography_style": ""
+      },
+      {
+        "id": "classic_5",
+        "filename": "classic_5.png",
+        "room": "entryway hallway",
+        "style_vibe": "traditional elegant",
+        "key_elements": [
+          "black and white marble tile floor",
+          "ornate console table with gilded mirror",
+          "fresh floral arrangement",
+          "grand staircase"
+        ],
+        "materials_textures": [],
+        "color_palette": [],
+        "lighting": "",
+        "photography_style": ""
+      }
+    ]
+  },
+  "result_images": {
+    "modern": {
+      "id": "result_modern",
+      "filename": "result_modern.png",
+      "room": "penthouse living space",
+      "style_vibe": "ultra-premium, dramatic",
+      "key_elements": [
+        "vast floor-to-ceiling glazing",
+        "city skyline at dusk",
+        "dramatic architectural silhouettes",
+        "accent lighting strips"
+      ],
+      "materials_textures": [],
+      "color_palette": [
+        "grey",
+        "white"
+      ],
+      "lighting": "dusk",
+      "photography_style": "magazine cover quality"
+    },
+    "contemporary": {
+      "id": "result_contemporary",
+      "filename": "result_contemporary.png",
+      "room": "living room",
+      "style_vibe": "warm, soulful, sophisticated",
+      "key_elements": [
+        "organic shaped furniture",
+        "terracotta accents",
+        "sculptural objects",
+        "trailing houseplants"
+      ],
+      "materials_textures": [],
+      "color_palette": [
+        "warm earthy tones"
+      ],
+      "lighting": "golden afternoon light",
+      "photography_style": "magazine editorial quality"
+    },
+    "classic": {
+      "id": "result_classic",
+      "filename": "result_classic.png",
+      "room": "stately home drawing room",
+      "style_vibe": "opulent, timeless, aristocratic",
+      "key_elements": [
+        "coffered ceiling",
+        "grand marble fireplace",
+        "crystal chandelier",
+        "sumptuous velvet drapes",
+        "antique furnishings"
+      ],
+      "materials_textures": [],
+      "color_palette": [
+        "burgundy",
+        "gold"
+      ],
+      "lighting": "",
+      "photography_style": "magazine editorial quality"
+    }
+  }
+}
