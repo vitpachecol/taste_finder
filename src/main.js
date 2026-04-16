@@ -5,25 +5,25 @@ import './style.css';
 // ============================================================
 const questions = [
   // --- MODERN (5) ---
-  { id: 1,  style: 'modern',        src: '/assets/modern_1.png',        alt: 'Sleek modern living room with floor-to-ceiling windows and concrete floors' },
-  { id: 2,  style: 'modern',        src: '/assets/modern_2.png',        alt: 'Minimalist black handleless kitchen with marble waterfall island' },
-  { id: 3,  style: 'modern',        src: '/assets/modern_3.png',        alt: 'Modern dark bedroom with floating beds and LED strip lighting' },
-  { id: 4,  style: 'modern',        src: '/assets/modern_4.png',        alt: 'Minimalist home office with floating desk and city view' },
-  { id: 5,  style: 'modern',        src: '/assets/modern_5.png',        alt: 'Modern spa bathroom with freestanding sculptural bathtub' },
+  { id: 1,  style: 'modern',        src: './assets/modern_1.png',        alt: 'Sleek modern living room with floor-to-ceiling windows and concrete floors' },
+  { id: 2,  style: 'modern',        src: './assets/modern_2.png',        alt: 'Minimalist black handleless kitchen with marble waterfall island' },
+  { id: 3,  style: 'modern',        src: './assets/modern_3.png',        alt: 'Modern dark bedroom with floating beds and LED strip lighting' },
+  { id: 4,  style: 'modern',        src: './assets/modern_4.png',        alt: 'Minimalist home office with floating desk and city view' },
+  { id: 5,  style: 'modern',        src: './assets/modern_5.png',        alt: 'Modern spa bathroom with freestanding sculptural bathtub' },
 
   // --- CONTEMPORARY (5) ---
-  { id: 6,  style: 'contemporary',  src: '/assets/contemporary_1.png',  alt: 'Contemporary living room with organic curved sofa and travertine coffee table' },
-  { id: 7,  style: 'contemporary',  src: '/assets/contemporary_2.png',  alt: 'Contemporary dining room with walnut table and dramatic pendant light' },
-  { id: 8,  style: 'contemporary',  src: '/assets/contemporary_3.png',  alt: 'Contemporary bedroom with layered linen textiles and live-edge shelving' },
-  { id: 9,  style: 'contemporary',  src: '/assets/contemporary_4.png',  alt: 'Open-plan kitchen with warm oak cabinetry and sage green accents' },
-  { id: 10, style: 'contemporary',  src: '/assets/contemporary_5.png',  alt: 'Sunlit reading nook with curved mustard armchair and brass bookshelves' },
+  { id: 6,  style: 'contemporary',  src: './assets/contemporary_1.png',  alt: 'Contemporary living room with organic curved sofa and travertine coffee table' },
+  { id: 7,  style: 'contemporary',  src: './assets/contemporary_2.png',  alt: 'Contemporary dining room with walnut table and dramatic pendant light' },
+  { id: 8,  style: 'contemporary',  src: './assets/contemporary_3.png',  alt: 'Contemporary bedroom with layered linen textiles and live-edge shelving' },
+  { id: 9,  style: 'contemporary',  src: './assets/contemporary_4.png',  alt: 'Open-plan kitchen with warm oak cabinetry and sage green accents' },
+  { id: 10, style: 'contemporary',  src: './assets/contemporary_5.png',  alt: 'Sunlit reading nook with curved mustard armchair and brass bookshelves' },
 
   // --- CLASSIC (5) ---
-  { id: 11, style: 'classic',       src: '/assets/classic_1.png',       alt: 'Grand traditional sitting room with marble fireplace and green velvet Chesterfield' },
-  { id: 12, style: 'classic',       src: '/assets/classic_2.png',       alt: 'Classic library with mahogany bookshelves and leather tufted armchair' },
-  { id: 13, style: 'classic',       src: '/assets/classic_3.png',       alt: 'Formal traditional dining room with crystal chandelier and navy wainscoting' },
-  { id: 14, style: 'classic',       src: '/assets/classic_4.png',       alt: 'Traditional four-poster canopy bedroom with floral wallpaper and porcelain lamps' },
-  { id: 15, style: 'classic',       src: '/assets/classic_5.png',       alt: 'Elegant hallway with marble tile floor, gilded mirror and grand staircase' },
+  { id: 11, style: 'classic',       src: './assets/classic_1.png',       alt: 'Grand traditional sitting room with marble fireplace and green velvet Chesterfield' },
+  { id: 12, style: 'classic',       src: './assets/classic_2.png',       alt: 'Classic library with mahogany bookshelves and leather tufted armchair' },
+  { id: 13, style: 'classic',       src: './assets/classic_3.png',       alt: 'Formal traditional dining room with crystal chandelier and navy wainscoting' },
+  { id: 14, style: 'classic',       src: './assets/classic_4.png',       alt: 'Traditional four-poster canopy bedroom with floral wallpaper and porcelain lamps' },
+  { id: 15, style: 'classic',       src: './assets/classic_5.png',       alt: 'Elegant hallway with marble tile floor, gilded mirror and grand staircase' },
 ];
 
 // Shuffle so styles don't appear in blocks
@@ -44,19 +44,19 @@ const results = {
     title: 'Modern',
     titleClass: 'modern-title',
     description: 'Defined by architectural precision and a masterful use of raw materials. Your aesthetic is one of deliberate restraint—where clean lines, structural geometry, and curated minimalism create a space that is as bold as it is serene.',
-    bg: '/assets/result_modern.png',
+    bg: './assets/result_modern.png',
   },
   contemporary: {
     title: 'Contemporary',
     titleClass: 'contemporary-title',
     description: 'An effortless blend of soft organic forms and sophisticated warmth. You appreciate the harmony of the "now"—where natural textures meet curated curves and a subtle, layered palette to create environments that feel alive and inherently inviting.',
-    bg: '/assets/result_contemporary.png',
+    bg: './assets/result_contemporary.png',
   },
   classic: {
     title: 'Classic',
     titleClass: 'classic-title',
     description: 'A celebration of enduring elegance and refined craftsmanship. Your home is a narrative of heritage—where rich textures, grand proportions, and meticulous detail are woven together to create a timeless sanctuary of beauty and grace.',
-    bg: '/assets/result_classic.png',
+    bg: './assets/result_classic.png',
   },
 };
 
