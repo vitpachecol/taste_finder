@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover your interior design style in 15 swipes. Are you Modern, Contemporary, or Classic? Find out now." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+    <title>Design Taste Finder | Julianne Kelly Interiors</title>
+    <script type="module" crossorigin src="/taste_finder/assets/index-CLMjKNco.js"></script>
+    <link rel="stylesheet" crossorigin href="/taste_finder/assets/index-CQ97efWd.css">
+  </head>
+  <body>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen active">
+      <div class="welcome-bg"></div>
+      <div class="welcome-content">
+        <img src="./jki-monogram.png" alt="JKI Monogram" class="brand-logo-monogram" />
+        <div class="logo-badge">Interior Style Discovery</div>
+        <img src="./jki-logo.png" alt="Julianne Kelly Interiors" class="brand-logo-wordmark" />
+        <h1 class="welcome-title" style="display:none;">Refine Your <span class="highlight">Aesthetic</span></h1>
+        <p class="welcome-subtitle" style="margin-top: 20px;">A curated 15-image selection to reveal your true interior expression.</p>
+        <div class="style-pills">
+          <span class="pill modern">Modern</span>
+          <span class="pill contemporary">Contemporary</span>
+          <span class="pill classic">Classic</span>
+        </div>
+        <button id="start-btn" class="btn-primary">Explore Your Style</button>
+        <p class="welcome-note">Takes less than 2 minutes</p>
+      </div>
+    </div>
+ 
+    <!-- Philosophy Intro Screen -->
+    <div id="intro-screen" class="screen">
+      <div class="welcome-bg"></div>
+      <div class="intro-content">
+        <div class="logo-badge">Our Philosophy</div>
+        <h2 class="intro-title">Trust Your <span class="highlight">Intuition</span></h2>
+        <div class="intro-body">
+          <p>This discovery is about how a space makes you <span class="accent-text">feel</span>, not the individual pieces within it.</p>
+          <p>Don’t look at the furniture, the fabrics, or the colours. Instead, respond to the <em>atmosphere</em> of the room.</p>
+          <p>Your first reaction is your true one.</p>
+        </div>
+        <button id="intro-continue-btn" class="btn-primary">I'm Ready</button>
+      </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="screen">
+      <div class="quiz-header">
+        <div class="progress-wrap">
+          <div class="progress-bar">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+          <span id="progress-label" class="progress-label">1 / 15</span>
+        </div>
+      </div>
+
+      <div class="quiz-interaction-wrap">
+        <button id="no-btn" class="action-btn side-btn no-btn" title="Dismiss">
+          <span class="action-icon">✕</span>
+        </button>
+
+        <div class="card-stage">
+          <div id="card" class="card">
+            <img id="card-img" src="" alt="Interior design image" class="card-img" draggable="false" />
+          </div>
+        </div>
+
+        <button id="yes-btn" class="action-btn side-btn yes-btn" title="Curate">
+          <span class="action-icon">♥</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" class="screen">
+      <div id="result-bg" class="result-bg"></div>
+      <div class="result-content">
+        <div class="result-badge">YOUR STYLE IS</div>
+        <h2 id="result-title" class="result-title"></h2>
+        <p id="result-description" class="result-description"></p>
+        <div id="result-scores" class="result-scores"></div>
+        <p class="result-cta">Speak to one of our interior designers at Julianne Kelly Interiors: <a href="mailto:info@juliannekellyinteriors.ie">info@juliannekellyinteriors.ie</a></p>
+        <button id="restart-btn" class="btn-primary btn-outline">Retake the Quiz</button>
+      </div>
+    </div>
+
+  </body>
+</html>
